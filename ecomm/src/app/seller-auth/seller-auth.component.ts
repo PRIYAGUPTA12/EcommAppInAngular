@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { SellerService, Seller } from '../services/seller.service'; // adjust path if needed
-import { Router } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-seller-auth',
-  imports: [FormsModule],
+  imports: [FormsModule,RouterLink],
   templateUrl: './seller-auth.component.html',
   styleUrl: './seller-auth.component.css'
 })

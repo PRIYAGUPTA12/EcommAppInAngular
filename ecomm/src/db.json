@@ -1,31 +1,31 @@
 {
   "seller": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Alice Johnson",
       "email": "alice.johnson@example.com",
       "password": "alice123"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Bob Williams",
       "email": "bob.williams@example.com",
       "password": "bob123"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Charlie Brown",
       "email": "charlie.brown@example.com",
       "password": "charlie321"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Diana Prince",
       "email": "diana.prince@example.com",
       "password": "wonderwoman"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Ethan Hunt",
       "email": "ethan.hunt@example.com",
       "password": "impossible"
@@ -64,6 +64,12 @@
       "id": "bf61",
       "name": "tumra",
       "email": "tumra@56gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "ca98",
+      "name": "fizaag",
+      "email": "dfdf@gmail.com",
       "password": "123456"
     }
   ]
