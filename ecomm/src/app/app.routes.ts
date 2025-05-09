@@ -8,9 +8,9 @@ import { SellerHomeComponent } from './seller-home/seller-home.component';
 import { SellerAddProductComponent } from './seller-add-product/seller-add-product.component';
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'seller-auth', pathMatch: 'full' },
+  { path: '', component: HomeComponent },
   { path: 'seller-auth', component: SellerAuthComponent },
-  { path: 'home', component: HomeComponent},
+  
   { path: 'login', component: LoginComponent },
   { path: 'seller-home', component: SellerHomeComponent, canActivate: [AuthGuard] },
   { path:  'seller-add-product',component:SellerAddProductComponent,canActivate: [AuthGuard]}
